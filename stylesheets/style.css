@@ -1,0 +1,219 @@
+.construct {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.first-part {
+  position: relative;
+  height: 600px;
+  background: linear-gradient(rgba(0.9, 0.9, 0.9, 0.7), rgba(0, 0, 0, 0.5)),
+    url("https://technext.github.io/raising/assets/img/about/2.jpg")
+      center/cover no-repeat;
+  background-attachment: fixed;
+}
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.t1 {
+  font-size: 30px;
+  color: #f7a324;
+}
+.t2 {
+  font-size: 55px;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav-item:hover {
+  border-bottom: 2px solid #ffca2c;
+}
+.subheading {
+  color: #ffa62b;
+  font-weight: bolder;
+}
+.heading {
+  font-size: 50px;
+}
+.para {
+  color: #9d9d9d;
+}
+.head {
+  color: #323232;
+}
+.box:hover {
+  border: 3px solid #9d9d9d;
+  box-shadow: 4px 4px 34px #484747;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.services {
+  color: #fff;
+  border: 2px solid white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+.service-1 {
+  background-color: #323232;
+}
+.service-2 {
+  background-color: #f7a324;
+}
+.service-3 {
+  background-color: #484747;
+  color: #fff;
+}
+.btn-custom {
+  text-decoration: none;
+  color: #f7a324;
+  background-color: #fff;
+  padding: 9px;
+  border-radius: 3px;
+}
+.countup {
+  color: #f7a324;
+  font-size: 40px;
+}
+.caption {
+  color: #fff;
+}
+.ftco-social {
+  display: none;
+}
+.staff:hover .c {
+  display: block;
+}
+.staff:hover .text {
+  background-color: #f7a324;
+}
+.staff:hover .role {
+  color: #fff;
+}
+
+.p {
+  position: relative;
+}
+.c {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+.c li {
+  margin-bottom: 9px;
+  list-style-type: none;
+}
+.text h3 a {
+  text-decoration: none;
+  color: #484747;
+}
+.text .role {
+  color: #9d9d9d;
+  font-weight: bold;
+}
+.pricongPackage {
+  font-size: 50px;
+}
+.pricing-container {
+  background-color: #f8f8f8;
+}
+.cardP {
+  background-color: #fff;
+  border: 2px solid #f7a324;
+}
+.badgeP {
+  /* 
+  background-color: #484747; */
+}
+.excerpt {
+  font-weight: bold;
+  color: #323232;
+  font-size: 25px;
+}
+.price {
+  font-size: 40px;
+  color: #f7a324;
+  font-weight: 600;
+}
+.btn-color {
+  background-color: #ffa62b;
+  color: #323232;
+  font-weight: 700;
+}
+.testimonial_content {
+  background-color: #f7a324;
+  color: #fff;
+  border: 4px solid #ffa62b;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 24px #ffca2c;
+}
+.testimonial_item:hover .testimonial_content {
+  background-color: #323232;
+  border: 4px solid #484747;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 34px #484747;
+}
+.customer-review {
+  color: #ffa62b;
+  font-size: 45px;
+}
+.worker_name {
+  font-weight: 800;
+  color: #484747;
+}
+.accordion-item {
+  background-color: #ffca2c;
+  color: #000;
+}
+.head,
+.accordion-header,
+.collapsed {
+  background-color: #f7a324;
+  border: 2px solid #f7a324;
+  color: #fff;
+}
+.headingC {
+  font-size: 45px;
+}
+.footer_top {
+  background-color: #323232;
+  color: #fff;
+}
+.footer_menu li a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+.footer_contact li a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+.footer_bottom {
+  background-color: #ffa62b;
+  color: #323232;
+  font-weight: 600;
+  font-size: 25px;
+  height: 70px;
+}
+.wow a {
+  text-decoration: none;
+  color: #fff;
+}

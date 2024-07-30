@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.mainWrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #000;
+  height: 10%;
+  padding: 10px;
+  padding: 10px;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar h2 {
+  float: left;
+  margin-top: 12px;
+  color: white;
+  font-size: 35px;
+}
+
+.navbar .links {
+  margin-right: 40px;
+  padding: 5px;
+  float: right;
+  line-height: 40px;
+}
+
+.navbar .links ul li {
+  float: right;
+  margin-left: 10px;
+  list-style-type: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.navbar .links ul li:hover {
+  border-bottom: 4px solid #ff9064;
+  border-top: 4px solid #ff9064;
+  border-radius: 10px;
+}
+.navbar .links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.homePage {
+  height: 80%;
+  width: 100%;
+  background-color: #333333;
+  padding: 25px;
+  padding-top: 100px;
+}
+.mainProfileDiv {
+  background-color: #ff9064;
+  height: 90%;
+  padding: 30px;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.profileDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profileDescrip .p1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 15px;
+}
+.profileDescrip .p1 span {
+  color: #333333;
+}
+.profileDescrip .p2 {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #333333;
+}
+.aboutPage {
+  background-color: #d6d4d4;
+  padding: 50px;
+}
+.aboutPage .aboutContainer {
+  display: flex;
+  align-items: center;
+}
+.aboutPage .aboutContainer .imgContainer {
+  margin-right: 20px;
+}
+.aboutPage .aboutContainer .imgContainer img {
+  border-radius: 15px;
+  width: 300px;
+  border: 5px solid #626262;
+}
+.aboutPage .aboutContainer .aboutDescrip {
+  padding: 12px;
+}
+.aboutPage .aboutContainer .aboutDescrip h1 {
+  margin-bottom: 12px;
+  font-size: 45px;
+  color: #333333;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 3px solid #ff9064;
+}
+.aboutPage .aboutContainer .aboutDescrip p {
+  line-height: 1.5;
+  font-size: 17px;
+}
+.skillPage {
+  background-color: #000;
+  padding: 55px;
+  color: white;
+}
+.skillPage .skillContainer {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: #333333;
+  border-radius: 20px;
+}
+.skillPage .skillContainer .row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.skillPage .skillContainer .skill {
+  border: 3px solid #626262;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 30px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.skillPage .skillContainer .skill .skillName {
+  margin-left: 15px;
+}
+.skillPage .skillContainer .skill:hover {
+  background-color: #000;
+  border: 5px solid #8f8d8d;
+}
+.skillPage .skillContainer .skill:hover .skillName {
+  color: #fff;
+}
+.projectPage {
+  background-color: #d6d4d4;
+  padding: 30px;
+  color: white;
+}
+.projectPage .projectContainer {
+  /* border: 2px solid white; */
+  padding: 20px;
+  display: flex;
+  background-color: #000;
+}
+.projectPage .projectContainer .projectCard {
+  border: 5px solid #626262;
+  border-radius: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #333333;
+}
+.projectPage .projectContainer .projectCard img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.projectPage .projectContainer .projectCard .Techstack {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.projectPage .projectContainer .projectCard .Techstack p {
+  border: 3px solid #000;
+  border-radius: 20px;
+  width: 55px;
+  margin-left: 5px;
+  padding: 4px;
+}
+
+.projectPage .projectContainer .projectCard .projectBtn button {
+  border: 2px solid black;
+  background-color: #ff9064;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #000;
+  border-radius: 20px;
+  margin-left: 5px;
+  padding: 8px;
+}
+.html {
+  background-color: #e74e26;
+  color: #000;
+}
+.css {
+  background-color: #264de4;
+  color: #000;
+}
+.js {
+  background-color: #f7df1e;
+  color: #000;
+}
+.contactPage {
+  background-color: lightgray;
+  padding: 20px;
+}
+.contactPage .contactContainer {
+  display: flex;
+  width: 100%;
+  color: white;
+}
+.contactPage .contactContainer .or {
+  margin-top: 20px;
+}
+.contactPage .contactContainer .left {
+  background-color: #000;
+  padding: 10px;
+  width: 40%;
+  border-radius: 10px;
+  margin-right: 22px;
+}
+.contactPage .contactContainer .left img {
+  width: 100%;
+  height: 100%;
+}
+.contactPage .contactContainer .right {
+  padding: 10px;
+  width: 60%;
+  margin-left: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #766e75;
+}
+.contactPage .contactContainer .right .contactForm form {
+  display: flex;
+  flex-direction: column;
+}
+.contactPage .contactContainer .right .contactForm form button {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #333333;
+  color: #fff;
+  border: 5px solid #766e75;
+}
+.contactPage .contactContainer .or {
+  font-size: 30px;
+}
+.socialMediaIcons {
+  margin-top: 22px;
+}
+.contactPage .contactContainer .right .contactForm form label {
+  font-size: 25px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.contactPage .contactContainer .right .contactForm form input {
+  padding: 10px;
+}
+.footer {
+  background-color: #766e75;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
